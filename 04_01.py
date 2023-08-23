@@ -1,6 +1,3 @@
-import os
-os.environ["OPENAI_API_KEY"] = "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"
-
 import streamlit as st
 from langchain.chat_models import ChatOpenAI
 from langchain.schema import (
